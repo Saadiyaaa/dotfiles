@@ -1,0 +1,19 @@
+
+shell = "/usr/bin/zsh"
+
+[window]
+padding = { x = 5, y = 5 }
+dynamic_padding = true
+opacity = 0.9
+startup_mode = "Fullscreen"
+decorations_theme_variant = "Dark"
+
+[cursor]
+style = { shape = "Block", blinking = "Off" }
+
+[font]
+normal = { family = "JetBrainsMonoNL Nerd Font Mono", style = "Regular" }
+bold = { family = "JetBrainsMonoNL Nerd Font Mono", style = "Bold" }
+italic = { family = "JetBrainsMonoNL Nerd Font Mono", style = "Italic" }
+bold_italic = { family = "JetBrainsMonoNL Nerd Font Mono", style = "Bold Italic" }
+

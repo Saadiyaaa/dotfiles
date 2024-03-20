@@ -1,0 +1,30 @@
+git commit : forward the branch
+git branch <branch> : create a new branch
+git branch -f <branch> <commit> : let that branch point to that commit
+git checkout [<branch>(/.)] : switch to that branch
+git checkout -b <branch> [<branch>(/.)] : create a branch and switch to that
+git merge <branch> : merge that branch to current branch
+git rebase <base-branch> [<branch>(/.)] : merge current branch linely to the forward of that branch
+git rebase -i <commit> : adjust the sequence of commits until that commit
+git reset <commit> : move current branch to commit(locally)
+git revert <commit> : move current branch to the undo-version of that commit(remotely)
+git cherry-pick <commit> <commit>...<commit> : git rebase those commits to current branch
+git tag <tag> <commit> : generate tag(version)
+git describe <commit> : search closest tag
+
+git-remote:
+git fetch [<remote>/origin] : synchronize the remote repository to local
+git pull [<remote>/origin] [<branch>/.] : fetch and merge to current branch
+git pull --rebase [<remote>/origin] [<branch>/.] : fetch and rebase to current branch
+git push [<remote>/origin] [<branch>/.] :
+git checkout -b <branch> <remote-branch> : create a branch tracking the remote branch
+git branch -u <remote-branch> <branch> : create a branch tracking the remote branch
+git push [<remote>/origin] source:destination :
+git fetch [<remote>/origin] source:destination :
+
+
+
+
+relative-ref:
+^[n] : [n]th parent
+~[n] : grandparent of [n] depth

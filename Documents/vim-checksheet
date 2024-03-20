@@ -1,0 +1,17 @@
+normal:
+gt/gT : go to next/previous tab
+g,/g; : go to next/previous position in change list :changes
+
+^i/^o : go to next/previous position in jump list  :jumps
+
+[m/]m : go to start/end of method
+
+./@: : repeat last change/command
+
+q:/qf : open CLI/search history
+
+
+
+CLI mode:
+^f/:history : open CLI history    default:set cedit=^f
+
